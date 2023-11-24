@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: relative;
+    top: 12vh; /* Use viewport units for relative positioning */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 8vw; /* Make the font size responsive */
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center; /* Center align the text for smaller screens */
+  }
+
+  p {
+    margin-top: 7vh; /* Add some space above the p tag */
+    color: #fff;
+    font-size: 4vw; /* Make the font size responsive */
+    font-weight: 400;
+    padding: 0 5vw; /* Add padding on the sides */
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+  
+  
+/* basic styles for black background and crosshair cursor */
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
