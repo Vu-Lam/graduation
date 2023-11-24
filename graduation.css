@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  p {
+    position: absolute;
+    top: 70%; /* Bạn có thể điều chỉnh giá trị này để thẻ p nằm phía dưới h1 như ý muốn */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 1.5em; /* Giảm kích thước font xuống để phân biệt với h1 và phù hợp với nội dung dài hơn */
+    font-weight: 400; /* Điều chỉnh độ đậm của font nếu cần */
+    width: 60%; /* Điều chỉnh chiều rộng của thẻ p để nội dung không bị quá dài trên mỗi dòng */
+    text-align: center; /* Căn giữa nội dung trong thẻ p */
+    white-space: pre-wrap; /* Đảm bảo rằng các khoảng trắng và xuống dòng được bảo toàn */
+    img {
+        
+    }
+}
+
+  
+  
+/* basic styles for black background and crosshair cursor */
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
