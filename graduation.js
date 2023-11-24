@@ -1,6 +1,6 @@
+alert("Click Happy Graduation to know how to use my gift :>");
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
-alert("Click Happy Graduation to know how to use my gift :>");
 window.requestAnimFrame = ( function() {
 	return window.requestAnimationFrame ||
 				window.webkitRequestAnimationFrame ||
@@ -256,6 +256,7 @@ function loop() {
 
 // mouse event bindings
 // update the mouse coordinates on mousemove
+
 canvas.addEventListener( 'mousemove', function( e ) {
 	mx = e.pageX - canvas.offsetLeft;
 	my = e.pageY - canvas.offsetTop;
